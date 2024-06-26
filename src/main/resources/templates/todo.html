@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <form action="/controller/todo" method="post">
+        <input type="text" name="actionName" placeholder="Input todo" required>
+<!--        <input type="date" name="actionDate" placeholder="Input date" required>-->
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
