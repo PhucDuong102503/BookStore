@@ -1,13 +1,13 @@
-package com.example.todoapp;
+package com.example.todopractice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToDoAppApplication {
+public class ToDoPracticeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ToDoAppApplication.class, args);
+        SpringApplication.run(ToDoPracticeApplication.class, args);
     }
 
 }
